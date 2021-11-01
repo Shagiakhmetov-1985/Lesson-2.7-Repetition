@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		C3D61AA3272FF7F700676ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61AA2272FF7F700676ECA /* AppDelegate.swift */; };
 		C3D61AA5272FF7F700676ECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61AA4272FF7F700676ECA /* SceneDelegate.swift */; };
-		C3D61AA7272FF7F700676ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61AA6272FF7F700676ECA /* ViewController.swift */; };
 		C3D61AAA272FF7F700676ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D61AA8272FF7F700676ECA /* Main.storyboard */; };
 		C3D61AAC272FF7F700676ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D61AAB272FF7F700676ECA /* Assets.xcassets */; };
 		C3D61AAF272FF7F700676ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D61AAD272FF7F700676ECA /* LaunchScreen.storyboard */; };
+		C3D61ABC272FF8D300676ECA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61ABB272FF8D300676ECA /* DataManager.swift */; };
+		C3D61ABE272FFB8B00676ECA /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61ABD272FFB8B00676ECA /* Persons.swift */; };
+		C3D61AC0273002A800676ECA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61ABF273002A800676ECA /* MainTabBarViewController.swift */; };
+		C3D61AC42730036100676ECA /* ListOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61AC32730036100676ECA /* ListOneViewController.swift */; };
+		C3D61AC62730037400676ECA /* ListTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61AC52730037400676ECA /* ListTwoViewController.swift */; };
+		C3D61AC8273027B100676ECA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D61AC7273027B100676ECA /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3D61A9F272FF7F700676ECA /* Lesson 2.7 Repetition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 2.7 Repetition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D61AA2272FF7F700676ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3D61AA4272FF7F700676ECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3D61AA6272FF7F700676ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3D61AA9272FF7F700676ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3D61AAB272FF7F700676ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3D61AAE272FF7F700676ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3D61AB0272FF7F700676ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D61ABB272FF8D300676ECA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C3D61ABD272FFB8B00676ECA /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		C3D61ABF273002A800676ECA /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		C3D61AC32730036100676ECA /* ListOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOneViewController.swift; sourceTree = "<group>"; };
+		C3D61AC52730037400676ECA /* ListTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTwoViewController.swift; sourceTree = "<group>"; };
+		C3D61AC7273027B100676ECA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		C3D61AA1272FF7F700676ECA /* Lesson 2.7 Repetition */ = {
 			isa = PBXGroup;
 			children = (
-				C3D61AA2272FF7F700676ECA /* AppDelegate.swift */,
-				C3D61AA4272FF7F700676ECA /* SceneDelegate.swift */,
-				C3D61AA6272FF7F700676ECA /* ViewController.swift */,
-				C3D61AA8272FF7F700676ECA /* Main.storyboard */,
-				C3D61AAB272FF7F700676ECA /* Assets.xcassets */,
-				C3D61AAD272FF7F700676ECA /* LaunchScreen.storyboard */,
-				C3D61AB0272FF7F700676ECA /* Info.plist */,
+				C3D61ABA272FF89400676ECA /* Models */,
+				C3D61AB7272FF84900676ECA /* Supporting */,
+				C3D61AB8272FF85300676ECA /* ViewControllers */,
+				C3D61AB9272FF87100676ECA /* Storyboards */,
+				C3D61AB6272FF83600676ECA /* Resources */,
 			);
 			path = "Lesson 2.7 Repetition";
+			sourceTree = "<group>";
+		};
+		C3D61AB6272FF83600676ECA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3D61AAB272FF7F700676ECA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3D61AB7272FF84900676ECA /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				C3D61AA2272FF7F700676ECA /* AppDelegate.swift */,
+				C3D61AA4272FF7F700676ECA /* SceneDelegate.swift */,
+				C3D61AB0272FF7F700676ECA /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		C3D61AB8272FF85300676ECA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3D61ABF273002A800676ECA /* MainTabBarViewController.swift */,
+				C3D61AC32730036100676ECA /* ListOneViewController.swift */,
+				C3D61AC52730037400676ECA /* ListTwoViewController.swift */,
+				C3D61AC7273027B100676ECA /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C3D61AB9272FF87100676ECA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C3D61AA8272FF7F700676ECA /* Main.storyboard */,
+				C3D61AAD272FF7F700676ECA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C3D61ABA272FF89400676ECA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3D61ABB272FF8D300676ECA /* DataManager.swift */,
+				C3D61ABD272FFB8B00676ECA /* Persons.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3D61AA7272FF7F700676ECA /* ViewController.swift in Sources */,
+				C3D61ABC272FF8D300676ECA /* DataManager.swift in Sources */,
 				C3D61AA3272FF7F700676ECA /* AppDelegate.swift in Sources */,
+				C3D61AC0273002A800676ECA /* MainTabBarViewController.swift in Sources */,
+				C3D61AC8273027B100676ECA /* DetailsViewController.swift in Sources */,
+				C3D61AC42730036100676ECA /* ListOneViewController.swift in Sources */,
+				C3D61ABE272FFB8B00676ECA /* Persons.swift in Sources */,
+				C3D61AC62730037400676ECA /* ListTwoViewController.swift in Sources */,
 				C3D61AA5272FF7F700676ECA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4AD5RA4FS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lesson 2.7 Repetition/Info.plist";
+				INFOPLIST_FILE = "Lesson 2.7 Repetition/Supporting/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S4AD5RA4FS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lesson 2.7 Repetition/Info.plist";
+				INFOPLIST_FILE = "Lesson 2.7 Repetition/Supporting/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
