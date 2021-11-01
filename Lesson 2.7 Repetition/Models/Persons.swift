@@ -41,6 +41,7 @@ extension Persons {
     }
 }
 
-struct Images {
-    static let image = ["phone", "tray"]
+enum Image: String {
+    case phone = "phone"
+    case email = "tray"
 }

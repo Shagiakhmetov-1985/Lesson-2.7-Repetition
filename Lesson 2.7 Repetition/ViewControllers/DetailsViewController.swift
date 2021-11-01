@@ -16,9 +16,9 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = person.fullname
         labelOne.text = person.phone
         labelTwo.text = person.email
-        title = person.fullname
     }
 
 }
